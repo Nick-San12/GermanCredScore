@@ -4,7 +4,7 @@ import streamlit as st
 import os
 
 curr_path = os.path.dirname(os.path.realpath(__file__))
-loaded_model=pickle.load(curr_path + "/modelnew.pkl")
+loaded_model=pickle.load(curr_path + '/modelnew.pkl','rb')
 
 #creating a function for classification
 
