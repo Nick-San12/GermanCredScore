@@ -3,7 +3,8 @@ import pickle
 import streamlit as st
 import sklearn
 
-loaded_model=pickle.load(open('modelnew.pkl','rb'))
+curr_path = os.path.dirname(os.path.realpath(__file__))
+loaded_model=pickle.load(curr_path + "/modelnew.pkl")
 
 #creating a function for classification
 
