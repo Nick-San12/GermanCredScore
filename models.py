@@ -1,7 +1,6 @@
 import numpy as np
 import pickle
 import streamlit as st
-import sklearn
 
 curr_path = os.path.dirname(os.path.realpath(__file__))
 loaded_model=pickle.load(curr_path + "/modelnew.pkl")
