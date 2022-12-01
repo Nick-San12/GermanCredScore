@@ -1,7 +1,7 @@
 import numpy as np
 import pickle
 import streamlit as st
-import os
+#import os
 
 #curr_path = os.path.dirname(os.path.realpath(__file__))
 #file=open(os.path.join(curr_path,'modelnew.pkl'),'rb')
