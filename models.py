@@ -74,7 +74,7 @@ def main():
     elif (Purpose == 'radio/television'):
         purpos = 7
     elif (Purpose == 'domestic appliances'):
-        credhist = 3
+        purpos = 3
     elif (Purpose == 'repairs'):
         purpos = 8
     elif (Purpose == 'education'):
